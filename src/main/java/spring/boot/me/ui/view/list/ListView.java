@@ -175,4 +175,5 @@ public class ListView extends VerticalLayout {
 		editContact(new Contact());
 	}
 
+	
 }

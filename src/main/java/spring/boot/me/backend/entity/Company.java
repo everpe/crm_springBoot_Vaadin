@@ -9,6 +9,7 @@ public class Company extends AbstractEntity  {
 	
 	 private String name;
 	 
+	 
 	 @OneToMany(mappedBy = "company", fetch = FetchType.EAGER)
 	 private List<Contact> employees = new LinkedList<>();
 	 
